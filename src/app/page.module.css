@@ -1,2 +1,132 @@
-export default function Home() {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* HERO */
+.hero {
+  background: url("/images/hero-bg.jpg") center/cover no-repeat;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.heroContent {
+  max-width: 800px;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: blue;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: blue;
+}
+
+.btnPrimary {
+  background: #0070f3;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btnPrimary:hover {
+  background: #005bb5;
+  transform: translateY(-2px);
+}
+
+/* SECTIONS */
+.sectionTitle {
+  font-size: 2rem;
+  text-align: center;
+  color: #0070f3;
+  margin-bottom: 1rem;
+}
+
+.sectionText {
+  text-align: center;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+/* GRID SERVICII */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.linkMore {
+  display: inline-block;
+  margin-top: 1rem;
+  text-align: center;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.linkMore:hover {
+  text-decoration: underline;
+}
+
+/* ABOUT */
+.about {
+  background: #fafafa;
+  padding: 3rem 1rem;
+}
+
+/* SERVICES */
+.services {
+  background: white;
+  padding: 3rem 1rem;
+}
+
+/* TEAM */
+.team {
+  background: #fafafa;
+  padding: 3rem 1rem;
+}
+
+/* QUICK CONTACT */
+.quickContact {
+  background: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
+  }
 }
