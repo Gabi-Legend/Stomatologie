@@ -7,23 +7,23 @@ export default function Servicii() {
       titlu: "Consultație",
       descriere:
         "Evaluare completă a sănătății dentare și plan personalizat de tratament.",
-      imagine: "/images/consultatie.jpg",
+      imagine: "/consultatie.webp",
     },
     {
       titlu: "Detartraj & Albire",
       descriere:
         "Curățare profesională și albire pentru un zâmbet mai luminos.",
-      imagine: "/images/albire.jpg",
+      imagine: "/albire.jpg",
     },
     {
       titlu: "Implant dentar",
       descriere: "Înlocuirea dinților lipsă cu implanturi de calitate premium.",
-      imagine: "/images/implant.jpg",
+      imagine: "/implant.jpg",
     },
     {
       titlu: "Ortodonție",
       descriere: "Aparat dentar pentru corectarea alinierii dinților.",
-      imagine: "/images/ortodontie.jpg",
+      imagine: "/ortodontie.jpg",
     },
   ];
 
